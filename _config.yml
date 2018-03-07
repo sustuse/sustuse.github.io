@@ -1,0 +1,45 @@
+title: Sustainable Development Blog # your site title
+author: Ivo Steimanis
+email: ivo.steimanis@wiwi.uni-marburg.de # email for form submission, you also have to change it in _js/scripts.js
+description: sustainable development blog - insights from behavioral economic research
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://sustuse.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
+github_username:  sustuse # replace with your_github_username or comment to remove link from footer
+#instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+social:
+ name: Research Group for Sustainable Use of Natural Resources
+ links:
+   - https://www.uni-marburg.de/fb02/sustuse
+
+disqus:
+  shortname: sustuse # to enable comments replace with your_disqus_shortname
+  
+google_tag_manager: GTM-5MCZHRD
+
+# Build settings
+markdown: kramdown
+highlighter: rouge # or pygments or null
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
