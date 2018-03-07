@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 ### Form
 
-Fill in the form or [email us](mailto:{{site.email}}) to get into contact.
+Fill in the form to get into contact.
 
 {% include form.html %}
 

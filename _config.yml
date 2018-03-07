@@ -1,13 +1,6 @@
 title: Sustainable Development Blog # your site title
-author:
-  steimani:
-    name: Ivo Steimanis
-    display_name: Ivo
-    image: https://www.uni-marburg.de/fb02/sustuse/images/copy_of_ivo.jpg/image_preview
-    email: ivo.steimanis@wiwi.uni-marburg.de
-    web: https://www.uni-marburg.de/fb02/sustuse/team/steimanis/index_html
-    github: tlvoli
-    
+author: Ivo Steimanis
+email: ivo.steimanis@staff.uni-marburg.de  
 description: sustainable development blog - insights from behavioral economic research
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://sustuse.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,8 +22,9 @@ disqus:
 google_tag_manager: GTM-5MCZHRD
 
 # Build settings
-markdown: kramdown
-highlighter: rouge # or pygments or null
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 exclude:
   - README.md
   - node_modules

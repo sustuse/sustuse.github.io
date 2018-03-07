@@ -262,8 +262,8 @@ $( "#contactForm" ).submit( function( e ) {
     $.ajax( {
 
         // Change the email address here:
-        url: "https://formspree.io/ivo.steimanis@wiwi.uni-marburg.de",
-        method: "POST",
+        url: "https://formspree.io/ivo.steimanis@staff.uni-marburg.de",
+        method= "POST",
         data: $( this ).serialize(),
         dataType: "json",
 
