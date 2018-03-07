@@ -7,6 +7,14 @@ url: "https://sustuse.github.io" # the base hostname & protocol for your site, e
 #twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 github_username:  sustuse # replace with your_github_username or comment to remove link from footer
 #instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+
+ivo_steimanis:
+  name: Ivo Steimanis
+  email: ivo.steimanis@staff.uni-marburg.de
+  web: https://www.uni-marburg.de/fb02/sustuse/team/steimanis/index_html
+  bio: Ivo Steimanis is a PhD candidate in behavioral economics at the Philipps University Marburg
+  image: https://www.uni-marburg.de/fb02/sustuse/images/copy_of_ivo.jpg/image_preview
+
 social:
  name: Research Group for Sustainable Use of Natural Resources
  links:

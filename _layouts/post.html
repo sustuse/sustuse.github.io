@@ -1,6 +1,7 @@
 ---
 layout: compress
 ---
+
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
 {% include head.html %}
@@ -8,7 +9,8 @@ layout: compress
 <body class="site">
 
 {% if site.google_tag_manager %}
-
+  {% include author.html %}
+  
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -83,6 +85,11 @@ layout: compress
       </div>
     </div>
 
+## if there is an author bio
+  {% if author.bio %}
+      {% include author.html %}
+  {% endif %}
+  
     {% if site.disqus.shortname %}
 
     <div class="comments">
