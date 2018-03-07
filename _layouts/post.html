@@ -2,14 +2,12 @@
 layout: compress
 ---
 
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-
 {% include head.html %}
 
 <body class="site">
 
 {% if site.google_tag_manager %}
-  {% include author.html %}
+
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
@@ -46,10 +44,12 @@ layout: compress
     </div>
   </div>
 
+         
+
+
   <main class="site__content">
     <div class="container">
       <article class="post-content" itemprop="articleBody">
-
         {{ content }}
 
       </article>
@@ -85,11 +85,7 @@ layout: compress
       </div>
     </div>
 
-## if there is an author bio
-  {% if author.bio %}
-      {% include author.html %}
-  {% endif %}
-  
+
     {% if site.disqus.shortname %}
 
     <div class="comments">
