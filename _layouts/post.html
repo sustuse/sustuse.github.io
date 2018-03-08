@@ -35,7 +35,7 @@ layout: compress
                 {% if words < 360 %}
                   1 min
                 {% else %}
-                  {{ words | divided_by:180 }} mins
+                  {{ words | divided_by:150 }} mins
               {% endif %} read
               &nbsp;
           </span>
@@ -49,10 +49,18 @@ layout: compress
 
   <main class="site__content">
     <div class="container">
-      <article class="post-content" itemprop="articleBody">
-        {{ content }}
+     
+       <article id="post-page" >
+        <div class="content" >
 
-      </article>
+        {{ content }}
+        
+        </div>
+    
+        {% assign author = site.authors[page.author] %}
+        {% include  author.html %}  
+</article>
+
       <div class="post-content controls__inner">
         <div class="controls__item prev">
           {% if page.previous.url %}
@@ -107,3 +115,4 @@ layout: compress
 </body>
 
 </html>
+

@@ -1,5 +1,4 @@
 title: Sustainable Development Blog # your site title
-author: Ivo Steimanis
 email: ivo.steimanis@staff.uni-marburg.de  
 description: sustainable development blog - insights from behavioral economic research
 baseurl: ""  # the subpath of your site, e.g. /blog
@@ -8,7 +7,15 @@ url: "https://sustuse.github.io" # the base hostname & protocol for your site, e
 github_username:  sustuse # replace with your_github_username or comment to remove link from footer
 #instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
 
-
+# AUTHORS
+authors:
+      steimani:
+        display_name: Ivo Steimanis
+        about: Ivo is PhD student in behavioral development economics at the Philipps University Marburg.
+        email: mailto:ivo.steimanis@staff.uni-marburg.de
+        web: https://www.uni-marburg.de/fb02/sustuse/team/steimanis
+        github: https://github.com/tlvoli/
+        image: /assets/img/posts/ivo_xs.jpg
 
 
 social:
