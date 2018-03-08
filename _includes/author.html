@@ -1,16 +1,18 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <div class="w3-card-2">
-  <div id="author-content">
     <h3>Author</h3>
     <hr>
-     <div itemprop="author" id="name-author"><strong>{{ author.display_name }}</strong>
-  </div>
-  
-      <img itemprop="image" id="image-author" src="{{ author.image }}">
-      <div id="about-author">{{ author.about }}</div>
+    <div class="wrap">
+     <div class='right'"><strong>{{ author.display_name }}</strong>
+     </div>
+     
+       <div class="rounded-corners">
+    <img src="{{author.image}}" class='left;'>
+    </div>
+      <div class='right'>{{ author.about }}</div>
       <div id="social-author"> 
-            <a href="{{ author.web }}" ><i class="	fa fa-external-link fa"></i></a>
+            <a href="{{ author.web }}" ><i class="fa fa-external-link fa"></i></a>
             <a href="{{ author.github }}" ><i class="fa fa-git fa"></i></a>
             <a href="{{ author.email }}" ><i class="fa fa-envelope-square fa"></i></a>
       </div>
