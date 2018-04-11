@@ -9,22 +9,20 @@ github_username:  sustuse # replace with your_github_username or comment to remo
 
 # AUTHORS
 authors:
-      steimani:
+  steimani:
         display_name: Ivo Steimanis
         about: Ivo is PhD student in behavioral development economics at the Philipps University Marburg.
         email: mailto:ivo.steimanis@staff.uni-marburg.de
         web: https://www.uni-marburg.de/fb02/sustuse/team/steimanis
         github: https://github.com/tlvoli/
-        image: /assets/img/posts/ivo.jpg
-        
-        kampenhu:
+        image: /assets/img/posts/ivo.jpg 
+  kampenhu:
         display_name: Lukas Kampenhuber
         about: Lukas is PhD student in behavioral development economics at the Philipps University Marburg. 
         email: mailto:kampenhu@staff.uni-marburg.de
         web: https://www.uni-marburg.de/fb02/sustuse/team/kampenhuber
         image: /assets/img/posts/lukas.jpg
-        
-        mayer:
+  mayer:
         display_name: Matthias Mayer
         about: Matthias is PhD student in behavioral development economics at the Philipps University Marburg. 
         email: mailto:matthias.mayer@staff.uni-marburg.de
