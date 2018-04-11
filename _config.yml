@@ -16,6 +16,20 @@ authors:
         web: https://www.uni-marburg.de/fb02/sustuse/team/steimanis
         github: https://github.com/tlvoli/
         image: /assets/img/posts/ivo.jpg
+        
+        kampenhu:
+        display_name: Lukas Kampenhuber
+        about: Lukas is PhD student in behavioral development economics at the Philipps University Marburg. 
+        email: mailto:kampenhu@staff.uni-marburg.de
+        web: https://www.uni-marburg.de/fb02/sustuse/team/kampenhuber
+        image: /assets/img/posts/lukas.jpg
+        
+        mayer:
+        display_name: Matthias Mayer
+        about: Matthias is PhD student in behavioral development economics at the Philipps University Marburg. 
+        email: mailto:matthias.mayer@staff.uni-marburg.de
+        web: https://www.uni-marburg.de/fb02/sustuse/team/matthias
+        image: /assets/img/posts/matthias.jpg
 
 
 social:
